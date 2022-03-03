@@ -1,11 +1,3 @@
-####################################################
-# Modified by Nazmi Asri                           #
-# Original code: http://thecodacus.com/            #
-# All right reserved to the respective owner       #
-####################################################
-
-# Import OpenCV2 for image processing
-# Import os for file path
 import cv2, os
 
 # Import numpy for matrix calculation
@@ -39,7 +31,6 @@ def getImagesAndLabels(path):
     # Initialize empty id
     ids = []
 
-    # Loop all the file path
     for imagePath in imagePaths:
 
         # Get the image and convert it to grayscale
