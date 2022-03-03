@@ -1,10 +1,3 @@
-####################################################
-# Modified by Nazmi Asri                           #
-# Original code: http://thecodacus.com/            #
-# All right reserved to the respective owner       #
-####################################################
-
-# Import OpenCV2 for image processing
 import cv2
 import os
 
@@ -43,7 +36,7 @@ while(True):
     for (x,y,w,h) in faces:
 
         # Crop the image frame into rectangle
-        cv2.rectangle(image_frame, (x,y), (x+w,y+h), (255,0,0), 2)
+        cv2.rectangle(image_frame, (x,y), (x+w,y+h), (255,0,255), 1)
 
         # Increment sample face image
         count += 1
